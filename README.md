@@ -3,6 +3,7 @@
 Universita' della Svizzera italiana ([USI](http://inf.usi.ch))  
 Spring term 2018-2019  
 
+
 ## People
 
 |                |        |                                |
@@ -11,9 +12,11 @@ Spring term 2018-2019
 | T.A.           | Daniele Grattarola     | [`daniele.grattarola@usi.ch`](mailto:daniele.grattarola@usi.ch) |
 | T.A.           | Daniele Zambon         | [`daniele.zambon@usi.ch`](mailto:daniele.zambon@usi.ch) |
 
+
 ## This repository
 
 This repository will contain the codes of the labs.
+
 
 ## Course description
 
