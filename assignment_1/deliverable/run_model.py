@@ -53,8 +53,7 @@ if __name__ == '__main__':
     x_test, y_test = load_data(data_path)
 
     ############################################################################
-    # If you need to do some pre-processing of the data, do it here
-
+    # EDITABLE SECTION OF THE SCIPT: if you need to edit the script, do it here
     ############################################################################
 
     # Load the trained model
@@ -63,6 +62,11 @@ if __name__ == '__main__':
 
     # Predict on the given samples
     y_pred = baseline_model.predict(x_test)
+
+
+    ############################################################################
+    # STOP EDITABLE SECTION: do not modify anything below this point.
+    ############################################################################
 
     # Evaluate the prediction using MSE
     mse = evaluate_predictions(y_pred, y_test)

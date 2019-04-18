@@ -6,6 +6,7 @@ def save_sklearn_model(model, filename):
     """
     Saves a Scikit-learn model to disk.
     Example of usage:
+    
     >>> reg = sklearn.linear_models.LinearRegression()
     >>> reg.fit(x_train, y_train)
     >>> save_sklearn_model(reg, 'my_model.pickle')    
@@ -33,6 +34,7 @@ def save_keras_model(model, filename):
     """
     Saves a Keras model to disk.
     Example of usage:
+
     >>> model = Sequential()
     >>> model.add(Dense(...))
     >>> model.compile(...)
